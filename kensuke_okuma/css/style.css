@@ -1,0 +1,437 @@
+@charset "utf-8";
+/*  common
+-----------------------------*/
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+background-color: #86C7F0;
+background-image: url(../img/cloud.png);
+background-size: auto;
+background-repeat: repeat;
+background-attachment: fixed;
+/* width: 960px; */
+}
+/* .wrap{
+height: 1002px;
+width: 1290px;
+position: absolute;
+transform-origin: 0% 0%;
+} */
+img{
+width: 100%;
+}
+/*  ヘッター部分
+-----------------------------*/
+header{
+width: 960px;
+margin: 0 auto;
+}
+header h1{
+top: 23px;
+left: 140px;
+width: 343px;
+height: 333px;
+zoom: 50%;
+}
+.top-nav{
+display: flex;
+}
+.nav-list02{
+display: flex;
+flex-direction: row;
+list-style: none;
+margin-left: 100px;
+padding: 30px 10px 0 10px;
+}
+.nav-list02 .sns{
+text-decoration: none;
+}
+.nav-list03{
+display: flex;
+flex-direction: row;
+margin-right: auto;
+text-align: right;
+}
+.nav-list03 .link{
+text-decoration: none;
+text-align: right;
+border-radius: 100%;
+zoom: 100%;
+width: 933px;
+}
+.nav-list04{
+display: flex;
+flex-direction: row;
+margin-right: auto;
+text-align: right;
+}
+.nav-list04 .menu{
+text-decoration: none;
+text-align: right;
+top: 445px;
+left: 228px;
+width: 316px;
+border-radius: 100%;
+}
+/*  メイン部分
+-----------------------------*/
+main{
+width: 960px;
+margin: 0 auto;
+}
+main .top-nav{
+display: block;
+}
+main .flex{
+display: flex;
+align-items: flex-start;
+}
+.nav-list05 .menu{
+padding: 0.5em 1em;
+margin: 2em 0;
+top: 1452px;
+left: 140px;
+width: 547px;
+height: 60px;
+margin-left: 10px;
+zoom: 100%;
+}
+.nav-list06{
+width: 320px;
+zoom: 100%;
+position: relative;
+
+}
+.nav-list06 .click{
+width: 50%;
+position: absolute;
+top: 30px;
+left: 0;
+right: 0;
+margin: auto;
+margin-top: -15px;
+margin-left: 56px;
+}
+.nav-list07{
+width: 320px;
+zoom: 100%;
+position: relative;
+}
+.nav-list07 .click{
+width: 50%;
+position: absolute;
+top: 30px;
+left: 0;
+right: 0;
+margin: auto;
+margin-top: -15px;
+margin-left: 58px;
+}
+.nav-list08{
+width: 320px;
+zoom: 100%;
+position: relative;
+}
+.nav-list08 .click{
+width: 50%;
+position: absolute;
+top: 30px;
+left: 0;
+right: 0;
+margin: auto;
+margin-top: -15px;
+margin-left: 58px;
+}
+.nav-list09{
+height: 60px;
+margin: 2em 0;
+}
+.nav-list09 .menu{
+width: 547px;
+padding: 0.5em 1em;
+margin: 2em 0;
+height: 60px;
+margin-left: 10px;
+zoom: 100%;
+}
+.nav-list10{
+width: 320px;
+position: relative;
+}
+.nav-list10 .click{
+position: absolute;
+top: 0;
+left: 0;
+width: 50%;
+}
+.nav-list11{
+width: 320px;
+position: relative;
+}
+.nav-list11 .japan{
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.nav-list11 .click{
+position: absolute;
+top: 0;
+left: 0;
+width: 50%;
+}
+.nav-list12{
+width: 320px;
+position: relative;
+}
+.nav-list12 .click{
+position: absolute;
+top: 0;
+left: 0;
+width: 50%;
+}
+.main-nav{
+display: flex;
+}
+/*  フッター部分
+-----------------------------*/
+footer{
+width: 100%;
+margin: 0 auto;
+height: 1002px;
+margin-top: 300px;
+background-color: #FFFFFF;
+text-align: center;
+}
+.footer-nav{
+padding-top: 300px;
+}
+.nav-list13{
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+width: 960px;
+}
+.footer-nav .menu{
+width: auto;
+border-right: solid 4px #707070; 
+padding-right: 43px;
+height: 60px;
+font-size: 16px;
+padding-top: 14px;
+}
+.menu a{
+text-decoration: none;
+color: #0F0E0E;
+}
+small{
+font-family: 'Times New Roman',sans-serif;
+font-size: 16px;
+padding-top: 350px;
+display: block;
+text-align: right;
+margin: 0 auto;
+width: 960px;
+}
+
+
+/*  アニメーション部分
+-----------------------------*/
+/*  アニメーション部分 背景画面が動く(雲模様)
+-----------------------------*/
+
+
+/*  アニメーション部分
+-----------------------------*/
+/*  アニメーション部分 ヘッター（Face book,Instagram,twitter）ホバーすると大きくなる
+-----------------------------*/
+.nav-list02 .sns{
+transform: rotate(-20deg);
+transition: transform 0.3s linear;
+}
+.nav-list02 .sns:hover{
+color: #86C7F0;
+transform: rotate(0deg);
+}
+
+.nav-list04 .menu{
+transition: transform 0.5s ease-in;
+}
+.nav-list04 .menu:hover img{
+transform: scale(1.25);
+}
+
+.nav-list06 .click{
+transition: transform 0.5s ease-in;
+}
+.nav-list06 .click:hover img{
+transform: scale(1.1);
+}
+.nav-list07 .click{
+transition: transform 0.5s ease-in;
+}
+.nav-list07 .click:hover img{
+transform: scale(1.1);
+}
+.nav-list08 .click{
+transition: transform 0.5s ease-in;
+}
+.nav-list08 .click:hover img{
+transform: scale(1.1);
+}
+
+.nav-list10 .click{
+transition: transform 0.5s ease-in;
+}
+.nav-list10 .click:hover img{
+transform: scale(1.1);
+}
+.nav-list11 .click{
+transition: transform 0.5s ease-in;
+}
+.nav-list11 .click:hover img{
+transform: scale(1.1);
+}
+.nav-list12 .click{
+transition: transform 0.5s ease-in;
+}
+.nav-list12 .click:hover img{
+transform: scale(1.1);
+}
+/*  #overlay
+--------------------------------*/
+#overlay{
+width: 100vw;
+height: 100vh;
+background-color: #ffffff;
+position: fixed;
+top: 0;
+left: 0;
+/* 非表示 */
+opacity: 0;
+pointer-events: none;
+}
+.modal.main2{
+width: 10%;
+position: absolute;
+bottom: 50px;
+right: 50px;
+}
+.modal{
+width: 50%;
+height: 100%;
+margin: 0 auto 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.modal img{
+width: 200%;
+height: auto;
+}
+#overlay.fade-in{
+pointer-events: visible;
+}
+@keyframes fade{
+0%{
+opacity: 0;
+}
+100%{
+opacity: 1;
+}
+}
+.fade-in{
+/* アニメーション */
+animation-name: fade;
+animation-duration: 1s;
+animation-delay: 0;
+animation-timing-function: ease-in-out;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+/* header h1{
+animation-name: logo_rotation;
+animation-duration: 0.5s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-play-state: paused;
+}
+.header :hover .header h1{
+animation-play-state: running;
+}
+@keyframes logo_rotation{
+0%{
+transform: translateX(0);
+}
+20%{
+transform: translateX(-4px);
+}
+40%{
+transform: translateX(4px);
+}
+60%{
+transform: translateX(-2px);
+}
+80%{
+transform: translateX(2px);
+}
+100%{
+transform: translateX(0);
+}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
