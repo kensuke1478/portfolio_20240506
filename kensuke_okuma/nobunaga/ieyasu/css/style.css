@@ -1,0 +1,246 @@
+@charset "utf-8";
+/*  common
+-----------------------------*/
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+margin: 0 auto;
+background-color: #86C7F0;
+background-image: url(../img/cloud.png);
+background-size: auto;
+background-repeat: repeat;
+/* background-attachment: fixed; */
+}
+img{
+width: 100%;
+}
+/*  ヘッター部分
+-----------------------------*/
+header{
+max-width: 960px;
+margin: 0 auto;
+}
+header h1{
+top: 23px;
+left: 140px;
+width: 343px;
+height: 333px;
+zoom: 50%;
+}
+.top-nav{
+display: flex;
+}
+.nav-list02{
+display: flex;
+flex-direction: row;
+list-style: none;
+margin-left: 100px;
+padding: 30px 10px 0 10px;
+}
+.nav-list02 .sns{
+text-decoration: none;
+}
+.nav-list03{
+display: flex;
+flex-direction: row;
+margin-right: auto;
+text-align: right;
+}
+.nav-list03 .link{
+text-decoration: none;
+text-align: right;
+border-radius: 100%;
+zoom: 100%;
+width: 933px;
+}
+.nav-list04{
+flex-direction: row;
+text-align: center;
+margin: 0 300px;
+}
+.nav-list04 .menu{
+text-decoration: none;
+top: 445px;
+left: 228px;
+width: 330px;
+border-radius: 100%;
+}
+/*  メイン部分
+-----------------------------*/
+main{
+max-width: 960px;
+margin: 0 auto;
+height: 600px;
+margin-top: 20px;
+text-align: center;
+background-repeat: repeat;
+background-attachment: fixed;
+background-size: auto;
+}
+.back{
+background-color: #CBE3F2;
+background-image: url(../img/cloud.png);
+width: auto;
+height: 600px;
+}
+main .top-nav{
+display: block;
+}
+.nav-list05{
+width: 400px;
+zoom: 100%;
+position: relative;
+}
+.nav-list05 .menu{
+zoom: 60%;
+padding: 80px;
+margin: 0 auto;
+}
+.nav-list05 .click{
+width: 130%;
+position: absolute;
+top: 60px;
+left: 449px;
+right: 0;
+margin: auto;
+}
+.nav-list06{
+display: flex;
+text-align: left;
+position: relative;
+top: -100px;
+left: 650px;
+width: 300px;
+}
+.nav-list06 .click{
+position: relative;
+top: -6px;
+}
+.back02{
+background-color: #ffffff;
+width: auto;
+margin: 0 auto;
+height: 900px;
+}
+sub{
+max-width: 960px;
+height: 600px;
+margin: 0 auto auto auto;
+text-align: center;
+background-repeat: repeat;
+background-attachment: fixed;
+}
+.nav-list11{
+display: flex;
+margin: 0 auto;
+}
+.nav-list11 .menu{
+margin: 6px -300px auto auto;
+}
+.nav-list11 .click{
+margin-left: 0px;
+width: 700px;
+margin: 65px auto;
+}
+.nav-list12{
+display: flex;
+margin: 0 auto;
+}
+.nav-list12 .menu{
+width: 700px;
+margin: -70px -50px auto auto;
+}
+.nav-list12 .click{
+position: relative;
+top: 130px;
+margin-left: 335px;
+width: 100px;
+margin: 0 auto;
+}
+/*  フッター部分
+-----------------------------*/
+footer{
+width: 100%;
+margin: 0 auto;
+height: 1200px;
+margin-top: 0;
+background-color: #FFFFFF;
+text-align: center;
+}
+.footer-nav{
+padding-top: 385px;
+}
+.nav-list09{
+margin: 50px auto;
+display: flex;
+justify-content: space-around;
+width: 960px;
+}
+.footer-nav .menu{
+width: auto;
+border-right: solid 4px #707070; 
+padding-right: 43px;
+height: 60px;
+font-size: 16px;
+padding-top: 14px;
+}
+.menu a{
+text-decoration: none;
+color: #0F0E0E;
+}
+    .top a{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #0F0E0E;
+    font-size: 14px;
+    text-align: left;
+    display: block;
+    font-family: 'Times New Roman',sans-serif;
+    width: 960px;
+    margin-top: 300px;
+    position: relative;
+    left:300px;
+    }
+
+small{
+font-family: 'Times New Roman',sans-serif;
+font-size: 16px;
+padding-top: 350px;
+display: block;
+text-align: right;
+margin: 0 auto;
+width: 960px;
+margin-top: -365px;
+}
+/* アニメーション作成 */
+.nav-list02 .sns{
+transform: rotate(-20deg);
+transition: transform 0.3s linear;
+}
+.nav-list02 .sns:hover{
+color: #86C7F0;
+transform: rotate(0deg);
+}
+.nav-list04 .menu{
+transition: transform 0.5s ease-in;
+}
+.nav-list04 .menu:hover img{
+transform: scale(1.1);
+}
+.nav-list06 .menu{
+transition: transform 0.5s ease-in;
+}
+.nav-list06 .menu:hover img{
+transform: scale(1.1);
+}
+.nav-list06 .click{
+transition: transform 0.5s ease-in;
+}
+.nav-list06 .click:hover img{
+transform: scale(1.1);
+}
+
+
