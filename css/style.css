@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+/*共通部分
+-------------------------*/
+
+body {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+img {
+  width: auto;
+}
+
+/*ヘッター部分
+-------------------------*/
+div.name {
+  color: #0F0E0E;
+  font-size: 35px;
+  padding-bottom: 100px;
+  font-family: 'メイリオ', 'Meiryo', sans-serif;
+  padding: 50px;
+}
+
+div.portfolio01 {
+  background-color: #F2EFEC;
+  width: auto;
+  height: 300px;
+}
+
+h1.Screen {
+  position: relative;
+  bottom: 220px;
+  left: 75px;
+}
+
+div.career {
+  display: inline-block;
+  margin: 150px 0 50px 730px;
+  font-family: 'メイリオ', 'Meiryo', sans-serif;
+  font-size: 30px;
+  color: #0F0E0E;
+}
+
+div.portfolio02 {
+  display: inline-block;
+  margin: 30px 0 55px 430px;
+  font-family: 'メイリオ', 'Meiryo', sans-serif;
+  font-size: 20px;
+  color: #0F0E0E;
+}
+
+h1.career01 {
+  display: inline-block;
+  margin: 0 0 20px 0;
+  letter-spacing: 0.12em;
+}
+
+h2.career02 {
+  display: inline-block;
+  margin: 0 0 20px 0;
+  letter-spacing: 0.12em;
+}
+
+h3.career03 {
+  display: inline-block;
+  margin: 0 0 20px 0;
+  letter-spacing: 0.12em;
+}
+
+/*メイン部分
+-------------------------*/
+
+div.skill {
+  display: inline-block;
+  margin: 160px 0 50px 735px;
+  font-family: 'メイリオ', 'Meiryo', sans-serif;
+  font-size: 30px;
+  color: #0F0E0E;
+}
+
+div.portfolio03 {
+  display: flex;
+  align-items: center;
+}
+
+h1.skill01 {
+  display: inline-block;
+  margin: 30px 0 30px 200px;
+}
+
+h2.skill04 {
+  display: inline-block;
+  margin: 30px 0 30px 421px;
+}
+
+h3.skill07 {
+  display: inline-block;
+  margin: 30px 0 30px 415px;
+}
+
+div.portfolio04 {
+  display: flex;
+  align-items: center;
+}
+
+h1.skill02 {
+  font-family: 'メイリオ', 'Meiryo', sans-serif;
+  font-size: 25px;
+  display: inline-block;
+  margin: 30px 0 30px 222px;
+}
+
+h2.skill05 {
+  font-family: 'メイリオ', 'Meiryo', sans-serif;
+  font-size: 25px;
+  display: inline-block;
+  margin: 30px 0 30px 473px;
+}
+
+h3.skill08 {
+  font-family: 'メイリオ', 'Meiryo', sans-serif;
+  font-size: 25px;
+  display: inline-block;
+  margin: 30px 0 30px 473px;
+}
+
+div.portfolio05 {
+  font-family: 'メイリオ', 'Meiryo', sans-serif;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+h1.skill03 {
+  display: inline-block;
+  margin: 48px 0 30px 150px;
+}
+
+h2.skill06 {
+  display: inline-block;
+  margin: 48px 0 30px 250px;
+}
+
+h3.skill09 {
+  display: inline-block;
+  margin: 48px 0 30px 280px;
+}
+
+div.works {
+  font-family: 'メイリオ', 'Meiryo', sans-serif;
+  font-size: 30px;
+  color: #0F0E0E;
+  display: inline-block;
+  margin: 160px 0 50px 720px;
+}
+
+div.portfolio06 {
+  display: flex;
+  align-items: center;
+}
+
+h1.works01 {
+  display: inline-block;
+  margin: 75px 0 0px 100px;
+}
+
+h3.works03 {
+  display: inline-block;
+  margin: 75px 0 0px 300px;
+}
+
+div.portfolio07 {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #0F0E0E;
+}
+
+h2.works02 {
+  display: inline-block;
+  margin: 50px 0 0px 100px;
+}
+
+h4.works04 {
+  display: inline-block;
+  margin: 50px 0 0px 300px;
+}
+
+/*画面遷移部分
+-------------------------*/
+div.portfolio08 {
+  display: flex;
+  align-items: center;
+}
+
+.btn--grey01,
+a.btn--grey01 {
+  color: #000000;
+  background-color: #EEEEEE;
+  text-decoration: none;
+  font-size:13px;
+  padding: 23px;
+  display: inline-block;
+  margin: -260px 0 0px 300px;
+}
+.btn--grey01:hover,
+a.btn--grey01:hover {
+  color: #000000;
+  background: #EEEEEE;
+}
+
+.btn--grey02,
+a.btn--grey02 {
+  color: #000000;
+  background-color: #EEEEEE;
+  text-decoration: none;
+  font-size:13px;
+  padding: 23px;
+  display: inline-block;
+  margin: -260px 0 0px 800px;
+}
+
+.btn--grey02:hover,
+a.btn--grey02:hover {
+  color: #000000;
+  background: #EEEEEE;
+}
+
+
+/*フッター部分
+-------------------------*/
+div.portfolio08{
+  padding: 175px;
+}
+
+div.copy {
+  display: inline-block;
+  margin: 50px 0 0px 1000px;
+  font-size: 15px;
+}
