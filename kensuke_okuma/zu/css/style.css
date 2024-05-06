@@ -1,0 +1,53 @@
+@charset "utf-8";
+/*  common
+-----------------------------*/
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+margin:auto;
+padding:auto;
+height: 750px;
+background-color: #0F0E0E;
+text-align: center;
+background-size: auto;
+background-repeat: repeat;
+background-attachment: fixed;
+}
+/*  メイン部分
+-----------------------------*/
+main{
+width: 960px;
+margin: 0 auto;
+}
+.nav-list02{
+display: block;
+position: absolute;
+width: 55px;
+height: 55px;
+text-align: right;
+top: 0px;
+/* left: 2200px; */
+right: 0;
+}
+/* .nav-list03{
+display: flex;
+position: relative;
+align-items: flex-start; */
+/* width: 1280px;
+height: 784px; */
+/* }
+.nav-list03 .main{
+/* margin-top: -750px; */
+/* margin-left: 130px;
+} */
+.map-back{
+display: flex;
+position: relative;
+align-items: flex-start;
+background-color: #ffffff;
+}
+
+
+
+
