@@ -1,0 +1,252 @@
+@charset "utf-8";
+/*  common
+-----------------------------*/
+*, *::before, *::after{
+box-sizing: border-box;
+}
+body{
+background-color: #86C7F0;
+background-image: url(../img/cloud.png);
+background-size: auto;
+background-repeat: repeat;
+background-attachment: fixed;
+}
+img{
+width: 100%;
+}
+/*  ヘッター部分
+-----------------------------*/
+header{
+width: 960px;
+margin: 0 auto;
+}
+header h1{
+top: 23px;
+left: 140px;
+width: 343px;
+height: 333px;
+zoom: 50%;
+}
+.top-nav{
+display: flex;
+}
+.nav-list02{
+display: flex;
+flex-direction: row;
+list-style: none;
+margin-left: 100px;
+padding: 30px 10px 0 10px;
+}
+.nav-list02 .sns{
+text-decoration: none;
+}
+.nav-list03{
+display: flex;
+flex-direction: row;
+margin-right: auto;
+text-align: right;
+}
+.nav-list03 .link{
+text-decoration: none;
+text-align: right;
+border-radius: 100%;
+zoom: 100%;
+width: 933px;
+}
+.nav-list04{
+display: flex;
+flex-direction: row;
+margin-right: auto;
+text-align: right;
+}
+.nav-list04 .menu{
+text-decoration: none;
+text-align: right;
+top: 445px;
+left: 228px;
+width: 316px;
+border-radius: 100%;
+}
+/*  メイン部分
+-----------------------------*/
+main{
+width: 960px;
+margin: 0 auto;
+}
+main .top-nav{
+display: block;
+align-items: flex-start;
+flex-direction: row;
+margin-right: auto;
+text-align: right;
+}
+.nav-list05{
+width: 50%;
+position: relative;
+display: flex;
+}
+.nav-list05 .menu{
+left: 16px;
+width: auto;
+height: auto;
+zoom: 100%;
+}
+.nav-list05 .click{
+top: 5px;
+width: 50%;
+position: absolute;
+left: 670px;
+height: auto;
+margin: auto;
+border-radius: 100%;
+}
+.nav-list06{
+width: 50%;
+position: relative;
+display: flex;
+}
+.nav-list06 .menu{
+width: 50%;
+position: absolute;
+top: 20px;
+left: 20px;
+right: 213px;
+margin: auto;
+}
+.nav-list06 .click{
+width: 100%;
+position: absolute;
+top: -80px;
+left: 425px;
+/* left: 530px; */
+height: auto;
+margin: auto;
+border-radius: 100%;
+margin-top: 80px;
+zoom: 100%;
+}
+.nav-list07{
+top: 280px;
+width: 50%;
+position: relative;
+display: flex;
+}
+.nav-list07 .menu{
+left: 16px;
+width: auto;
+height: auto;
+zoom: 100%;
+}
+.nav-list07 .click{
+top: 10px;
+width: 50%;
+position: absolute;
+left: 670px;
+height: auto;
+margin: auto;
+border-radius: 100%;
+}
+.nav-list10{
+width: 49px;
+height: 46px;
+position: absolute;
+}
+.nav-list10 .click{
+position: relative;
+top: 250px;
+left: 890px;
+}
+.main-nav{
+display: flex;
+}
+/*  フッター部分
+-----------------------------*/
+footer{
+width: 100%;
+margin: 0 auto;
+height: 1002px;
+margin-top: 300px;
+background-color: #FFFFFF;
+text-align: center;
+}
+.footer-nav{
+padding-top: 300px;
+}
+.nav-list08{
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+width: 960px;
+}
+.footer-nav .menu{
+width: auto;
+border-right: solid 4px #707070; 
+padding-right: 43px;
+height: 60px;
+font-size: 16px;
+padding-top: 14px;
+}
+.menu a{
+text-decoration: none;
+color: #0F0E0E;
+}
+small{
+font-family: 'Times New Roman',sans-serif;
+font-size: 16px;
+padding-top: 350px;
+display: block;
+text-align: right;
+margin: 0 auto;
+width: 960px;
+}
+.nav-list09{
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+width: 960px;
+}
+.top a{
+text-decoration: none;
+color: #0F0E0E;
+font-size: 14px;
+text-align: left;
+display: block;
+font-family: 'Times New Roman',sans-serif;
+width: 960px;
+margin-top: -17px;
+margin-left: 0px;
+}
+
+/* アニメーション */
+.nav-list02 .sns{
+transform: rotate(-20deg);
+transition: transform 0.3s linear;
+}
+.nav-list02 .sns:hover{
+color: #86C7F0;
+transform: rotate(0deg);
+}
+.nav-list04 .menu{
+transition: transform 0.5s ease-in;
+}
+.nav-list04 .menu:hover img{
+transform: scale(1.25);
+}
+.nav-list05 .click{
+transition: transform 0.5s ease-in;
+}
+.nav-list05 .click:hover img{
+transform: scale(1.5);
+}
+.nav-list06 .menu{
+transition: transform 0.5s ease-in;
+}
+.nav-list06 .menu:hover img{
+transform: scale(1.5);
+}
+.nav-list07 .click{
+transition: transform 0.5s ease-in;
+}
+.nav-list07 .click:hover img{
+transform: scale(1.5);
+}
