@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+/* contact.php*/
+body {
+  max-width: 960px;
+  margin: 0;
+}
+
+section.menu {
+  height: 200px;
+}
+
+.top_return img {
+  width: 150px;
+  height: auto;
+  margin: 25px;
+}
+
+h1.contact-title {
+  width: 100%;
+  text-align: center;
+  margin-top: -15%;
+  margin-left: 30%;
+  font-family: Times New Roman, Regular;
+  font-weight: normal;
+  font-size: 40px;
+  color: #050505;
+}
+
+table.CF7_table {
+  margin-top: 10%;
+  margin-left: 40%;
+  width: 746px;
+  height: 300px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+
+th {
+  width: 14vw;
+  color: #080808;
+  background: #D3E2F4 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  text-align: left;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: Times New Roman, Regular;
+}
+
+td {
+  border: 1px solid #707070;
+  opacity: 1;
+}
+
+input.contact-text {
+  width: 500px;
+  margin-left: 20px;
+  border: 1px solid #707070;
+  border-radius: 28px;
+  opacity: 1;
+}
+
+textarea.textarea {
+  width: 516px;
+  height: 142px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 18px;
+  opacity: 1;
+}
+
+button.CF7_btn {
+  background: #ffffff;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  width: 200px;
+  display: block;
+  margin: auto;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.CF7_btn img {
+  width: 200px;
+  display: block;
+  margin: auto;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+
+p.error {
+  color: #FF3300;
+}
+
+/*confirm.php*/
+
+h2.contact-title {
+  width: 100%;
+  text-align: center;
+  margin-top: -15%;
+  margin-left: 30%;
+  font-family: Times New Roman, Regular;
+  font-weight: normal;
+  font-size: 40px;
+  color: #050505;
+}
+
+div.confirm {
+  justify-content: center;
+  margin-top: 5%;
+  margin-left: 70%;
+  margin-bottom: 8%;
+}
+
+.confirm img {
+  width: 200px;
+  margin: 30px;
+}
+
+input.register {
+  background-color:#F4D3D4;
+  border-radius: 100vh;
+  width: 100px;
+}
+
+input.done {
+  background-color:#CBE3F2;
+  border-radius: 100vh;
+  width: 100px;
+}
+
+/*done.php*/
+
+h3.contact-title {
+  width: 100%;
+  text-align: center;
+  margin-top: -15%;
+  margin-left: 30%;
+  font-family: Times New Roman, Regular;
+  font-weight: normal;
+  font-size: 40px;
+  color: #050505;
+}
+
+.icon img {
+  width: 250px;
+}
+
+.nav-list03 {
+  margin-left: 1400px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30%;
+  margin-top: -15%;
+}
+
+.nav-list04 {
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+  text-align: right;
+  margin-left: -7%;
+}
+
+.nav-list04 .icon {
+  left: 228px;
+  width: 316px;
+  border-radius: 100%;
+  margin: 0 40px 40px 0;
+  margin-left: 30%;
+  margin-right: 34%;
+}
+
+.confirm-text {
+  border-left-width: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  font-size: 15px;
+  width: 300px;
+}
+
+p.msg {
+  font-size: 17px;
+  text-align: center;
+  margin-left: 51%;
+  margin-top: -20%;
+  white-space: nowrap;
+}
+
+/* footer.php*/
+small {
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 16px;
+  display: block;
+  text-align: right;
+  margin: 0 auto;
+  width: 980px;
+  margin-top: -25px;
+  margin-left: 500px;
+}
